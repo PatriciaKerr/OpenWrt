@@ -116,5 +116,5 @@ if [ $build_status -ne 0 ]; then
     exit 1
 else
     ls -R bin
-    cp ./bin/openwrt-23.05.0-rc3-x86-64-generic-rootfs.tar.gz ./artifacts/
+    cp bin/targets/x86/64/openwrt-23.05.0-rc3-x86-64-generic-rootfs.tar.gz ./artifacts/
 fi
