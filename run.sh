@@ -111,6 +111,8 @@ build_status=$?
 compose rm -f
 rm docker-compose.yml
 
+mkdir -p artifacts
+
 if [ $build_status -ne 0 ]; then
     echo "build failed"
     exit 1
