@@ -44,4 +44,3 @@ jobs:
         with:
           name: image
           path: ./artifacts/*
-          ./run.sh --image=openwrt/imagebuilder:x86-64-21.02.7
